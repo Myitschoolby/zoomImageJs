@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+    background-color: #ededed;
+}
+
+.gallery {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.gallery a {
+    display: inline-block;
+    width: 100%;
+}
+
+.gallery ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.gallery img {
+    width: 100%;
+}
